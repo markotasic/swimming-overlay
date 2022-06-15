@@ -124,8 +124,8 @@ function App() {
           value={moveBottom}
         />
         <Slider
-          min={0}
-          max={1080}
+          min={-50}
+          max={200}
           label='Маrgin'
           handleChange={handleChangeMargin}
           value={margin}
