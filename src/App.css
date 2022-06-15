@@ -1,38 +1,48 @@
-.App {
+.overlay {
+  width: 1920px;
+  height: 1080px;
+  background-image: url('./dummy-pool.jpg');
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  z-index: -1;
+}
+
+.scene {
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-100px);
+  margin-top: 60px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.8);
+  width: 500px;
+}
+
+/* .card:not(:last-child) {
+  margin: 0 0 10px 0;
+} */
+
+.place {
+  background-color: rgba(0, 140, 255, 0.5);
+  height: 100%;
+  width: 10%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.team {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hide {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sliders {
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  right: 0;
 }

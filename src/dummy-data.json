@@ -1,0 +1,42 @@
+[
+  {
+    "place": 1,
+    "name": "M. BUKVIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 2,
+    "name": "A. KALJEVIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 3,
+    "name": "S. SVORCAN",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 4,
+    "name": "N. STANISALJEVIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 5,
+    "name": "M. KALJEVIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 6,
+    "name": "I. DIMKIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 7,
+    "name": "H. LALKOVIC",
+    "team": "./dummy-img.png"
+  },
+  {
+    "place": 8,
+    "name": "N. KEKIC",
+    "team": "./dummy-img.png"
+  }
+]
